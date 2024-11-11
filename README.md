@@ -1,1 +1,68 @@
-# chatgpt-ai-game
+🦁 Animal Guessing Game 🐦
+Overview
+Welcome to the Animal Guessing Game! In this fun and educational game, players will guess animals based on clues. The game includes various animal categories such as Mammals, Birds, and Sea Animals, and offers multiple difficulty levels. Players have a limited time to answer each question, earning points for each correct answer.
+
+Requirements
+To run this game on your local machine, you will need:
+
+Git: To clone the repository.
+Python 3: To execute the game script.
+Installing Git
+Visit Git Downloads.
+Download and install Git for your operating system.
+Installing Python
+Visit Python Downloads.
+Download and install Python 3. Ensure that "Add Python to PATH" is checked during installation.
+Setup Instructions
+Step 1: Clone the Repository
+First, clone the repository to your local machine using Git:
+
+bash
+Copy code
+git clone https://github.com/Omarjabari007/chatgpt-ai-game.git
+Step 2: Navigate to the Game Directory
+After cloning the repository, navigate into the directory:
+
+bash
+Copy code
+cd chatgpt-ai-game
+Step 3: Run the Game
+Ensure you have Python 3 installed, then run the game using the following command:
+
+bash
+Copy code
+python game.py
+How to Play
+Choose a category: You can select from the following animal categories:
+
+Mammals
+Birds
+Sea Animals
+Select difficulty: The game has three difficulty levels:
+
+Easy: More attempts and more time to answer.
+Medium: Balanced level of difficulty.
+Hard: Fewer attempts and less time to answer.
+Guess the animal: Based on the clue provided, type your guess. You will have a limited time (based on difficulty) to answer each question.
+
+Score: You score a point for each correct answer. After completing all levels, your final score will be shown, and you can view your high score.
+
+Main Menu Options
+Start Game: Begin playing the game.
+High Scores: View the highest scores you've achieved.
+Help: Display the game instructions.
+Quit: Exit the game.
+Game Flow
+Welcome Screen: You'll be greeted with a brief description of the game and its rules.
+Category Selection: Choose an animal category to start the game.
+Difficulty Selection: Pick your desired level of difficulty.
+Guessing: After receiving the clue, guess the animal within the time limit.
+Score: At the end of each level, your score will be updated. The game will keep track of your high score.
+Game Over: After completing all levels, the game ends, and your final score is displayed.
+Example Clue
+For example, you might receive a clue like this:
+
+Clue: "I am the king of the jungle."
+Answer: Lion (You will type 'Lion' to score a point!)
+License
+This game is open-source and free to play. Feel free to contribute!
