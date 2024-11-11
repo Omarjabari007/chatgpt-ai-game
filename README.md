@@ -96,16 +96,8 @@ For questions or support, please open an issue on this repository or reach out t
 Acknowledgements
 Thanks to all the open-source contributors whose tools and libraries made this project possible.
 Special thanks to the community for their support and feedback!
-markdown
-Copy code
 
-### Changes and Features:
-- **Professional Formatting**: Includes properly formatted headers, lists, and code blocks.
-- **Contributing Section**: Added a section for contributing to the project.
-- **License and Code of Conduct**: Encourages open-source contribution and maintains project professionalism.
-- **Contact Information**: Provided a way to contact you for support or questions.
 
-This README is ready to be used with your repository! It provides clarity, structure, and professionalism, while also encouraging others to contribute.
 
 
 
