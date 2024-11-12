@@ -1,61 +1,48 @@
-# E-commerce Backend Project with FastAPI and PostgreSQL
+# 🐾 Animal Adventure Game 🐾
 
-This is a backend-only e-commerce project built with Python and the FastAPI framework, connected to a PostgreSQL database using Docker. This project provides essential e-commerce functionalities, including user and product management, product purchasing, and updating product statuses. It was developed as a practical test of our skills with FastAPI, database management, security, and Docker configuration.
+Welcome to **Animal Adventure Game**, an interactive Python game where players can explore, interact, and learn about various animals in a fun and engaging way!
 
-## Features
+---
 
-- **User Management**: Register, login, and manage users.
-- **Product Management**: CRUD operations for products (create, read, update, delete).
-- **Purchasing Products**: API to purchase products.
-- **Product Status Tracking**: View and update product statuses.
-- **Secure API Endpoints**: Authentication and authorization for secure access.
+## 📖 About the Game
 
-## Getting Started
+_Animal Adventure Game_ is designed to entertain and educate. Players can choose from various animals, explore their environments, make choices, and see the outcomes. Each animal has unique traits and abilities, providing a fresh experience each time you play!
 
-Follow these steps to set up and run the project on your local machine.
+## 🚀 Getting Started
+
+Follow these steps to download, clone, and play the game.
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Ensure you have **Python 3.7+** installed on your system. You can download Python from the [official website](https://www.python.org/downloads/).
 
-- **Docker** and **Docker Compose**
-- **Python 3.8+**
+### 🔽 Downloading the Game
 
-### Installation and Setup
+To download the game files, follow these steps:
 
-1. **Clone the Repository**
+1. **Clone the repository** by running the following command in your terminal:
 
    ```bash
-   git clone https://github.com/Omarjabari007/PSEU2024.git
-   cd PSEU2024
+   git clone https://github.com/Omarjabari007/chatgpt-game.git
 
    ```
 
-2. **Set Up Environment Variables**
+2. **Navigate into the game folder:**
 
-   Create a `.env` file in the project root and add the necessary environment variables for PostgreSQL and the application settings.
+cd chatgpt-game
 
-   **Example `.env` file**:
+▶️ **Running the Game** :
+Once you have cloned the repository, you can start the game by running:
 
-   ```dotenv
-   DATABASE_URL=postgresql://user:password@db:5432/ecommerce_db
-   SECRET_KEY=your-secret-key
-   ```
+python main.py
 
-### 3. **Start the Docker Containers**
+🎮 **How to Play** :
+Choose Your Animal: Start by selecting an animal from the list.
+Explore: Make choices about where to go and what to do, and learn more about the environment.
+Survive and Thrive: Interact with other animals, find food, and complete unique challenges.
+Each decision you make will lead to a different outcome, so choose wisely!
 
-Use **Docker Compose** to build and start the containers.
-
-```bash
-docker-compose up --build
-
-This will:
-
-Set up a PostgreSQL database container
-Launch the FastAPI application container
-The application will be accessible at http://localhost:8000.
-
-For any questions, please contact Omar Mohammed Karam Abdelfattah Jabari at omarjabari007@example.com.
-
-Enjoy exploring the e-commerce backend!
-```
+**🛠️ Project Structure** :
+**\*** main.py: This is the main file that runs the game.
+**\*** animal.py: Contains the animal classes and their unique abilities.
+**\*** environment.py: Manages the environment settings and animal interactions.
