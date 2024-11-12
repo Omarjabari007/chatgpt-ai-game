@@ -1,68 +1,61 @@
-🦁 Animal Guessing Game 🐦
-Overview
-Welcome to the Animal Guessing Game! In this fun and educational game, players will guess animals based on clues. The game includes various animal categories such as Mammals, Birds, and Sea Animals, and offers multiple difficulty levels. Players have a limited time to answer each question, earning points for each correct answer.
+# E-commerce Backend Project with FastAPI and PostgreSQL
 
-Requirements
-To run this game on your local machine, you will need:
+This is a backend-only e-commerce project built with Python and the FastAPI framework, connected to a PostgreSQL database using Docker. This project provides essential e-commerce functionalities, including user and product management, product purchasing, and updating product statuses. It was developed as a practical test of our skills with FastAPI, database management, security, and Docker configuration.
 
-Git: To clone the repository.
-Python 3: To execute the game script.
-Installing Git
-Visit Git Downloads.
-Download and install Git for your operating system.
-Installing Python
-Visit Python Downloads.
-Download and install Python 3. Ensure that "Add Python to PATH" is checked during installation.
-Setup Instructions
-Step 1: Clone the Repository
-First, clone the repository to your local machine using Git:
+## Features
 
-bash
-Copy code
-git clone https://github.com/Omarjabari007/chatgpt-ai-game.git
-Step 2: Navigate to the Game Directory
-After cloning the repository, navigate into the directory:
+- **User Management**: Register, login, and manage users.
+- **Product Management**: CRUD operations for products (create, read, update, delete).
+- **Purchasing Products**: API to purchase products.
+- **Product Status Tracking**: View and update product statuses.
+- **Secure API Endpoints**: Authentication and authorization for secure access.
 
-bash
-Copy code
-cd chatgpt-ai-game
-Step 3: Run the Game
-Ensure you have Python 3 installed, then run the game using the following command:
+## Getting Started
 
-bash
-Copy code
-python game.py
-How to Play
-Choose a category: You can select from the following animal categories:
+Follow these steps to set up and run the project on your local machine.
 
-Mammals
-Birds
-Sea Animals
-Select difficulty: The game has three difficulty levels:
+### Prerequisites
 
-Easy: More attempts and more time to answer.
-Medium: Balanced level of difficulty.
-Hard: Fewer attempts and less time to answer.
-Guess the animal: Based on the clue provided, type your guess. You will have a limited time (based on difficulty) to answer each question.
+Make sure you have the following installed:
 
-Score: You score a point for each correct answer. After completing all levels, your final score will be shown, and you can view your high score.
+- **Docker** and **Docker Compose**
+- **Python 3.8+**
 
-Main Menu Options
-Start Game: Begin playing the game.
-High Scores: View the highest scores you've achieved.
-Help: Display the game instructions.
-Quit: Exit the game.
-Game Flow
-Welcome Screen: You'll be greeted with a brief description of the game and its rules.
-Category Selection: Choose an animal category to start the game.
-Difficulty Selection: Pick your desired level of difficulty.
-Guessing: After receiving the clue, guess the animal within the time limit.
-Score: At the end of each level, your score will be updated. The game will keep track of your high score.
-Game Over: After completing all levels, the game ends, and your final score is displayed.
-Example Clue
-For example, you might receive a clue like this:
+### Installation and Setup
 
-Clue: "I am the king of the jungle."
-Answer: Lion (You will type 'Lion' to score a point!)
-License
-This game is open-source and free to play. Feel free to contribute!
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/Omarjabari007/PSEU2024.git
+   cd PSEU2024
+
+   ```
+
+2. **Set Up Environment Variables**
+
+   Create a `.env` file in the project root and add the necessary environment variables for PostgreSQL and the application settings.
+
+   **Example `.env` file**:
+
+   ```dotenv
+   DATABASE_URL=postgresql://user:password@db:5432/ecommerce_db
+   SECRET_KEY=your-secret-key
+   ```
+
+### 3. **Start the Docker Containers**
+
+Use **Docker Compose** to build and start the containers.
+
+```bash
+docker-compose up --build
+
+This will:
+
+Set up a PostgreSQL database container
+Launch the FastAPI application container
+The application will be accessible at http://localhost:8000.
+
+For any questions, please contact Omar Mohammed Karam Abdelfattah Jabari at omarjabari007@example.com.
+
+Enjoy exploring the e-commerce backend!
+```
